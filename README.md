@@ -24,13 +24,14 @@ It demonstrates:
 
 ## 🗂️ Project Structure
 
+```text
 Bonus/
-├── main.c # Entry point: sets up the server and accepts connections
-├── server.c # Handles client requests and responses
-├── server.h # Header declarations for server logic
-├── www/ # Static files served by the server
-├── server # Compiled binary
-└── README.md # This documentation
+├── main.c          # Entry point: sets up the server and accepts connections
+├── server.c        # Handles client requests and responses
+├── server.h        # Header declarations for server logic
+├── www/            # Static files served by the server
+├── server          # Compiled binary
+└── README.md       # This documentation
 
 ---
 
