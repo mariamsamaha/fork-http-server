@@ -42,12 +42,15 @@ Make sure you have GCC installed. Then run:
 ```bash
 gcc -o server server.c main.c
 
+
 ## How to Run
-Run the server with a specific port:
+
+1.Run the server with a specific port:
 
 ./server <port>
 
-Now open your browser and go to:
+2.Now open your browser and go to:
+
 http://localhost:<port>
 
 You should see the content of the www/ folder served.
