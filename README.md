@@ -22,9 +22,10 @@ It demonstrates:
 
 ---
 
-## 🗂️ Project Structure
-
-```text
+🗂️ Project Structure
+text
+Copy
+Edit
 Bonus/
 ├── main.c          # Entry point: sets up the server and accepts connections
 ├── server.c        # Handles client requests and responses
@@ -32,25 +33,24 @@ Bonus/
 ├── www/            # Static files served by the server
 ├── server          # Compiled binary
 └── README.md       # This documentation
-
----
-
-## How to Build
-
+⚙️ How to Build
 Make sure you have GCC installed. Then run:
 
-```bash
+bash
+Copy
+Edit
 gcc -o server server.c main.c
+🚀 How to Run
+Run the server with a specific port:
 
-
-## How to Run
-
-1.Run the server with a specific port:
-
+bash
+Copy
+Edit
 ./server <port>
+Now open your browser and go to:
 
-2.Now open your browser and go to:
-
+arduino
+Copy
+Edit
 http://localhost:<port>
-
 You should see the content of the www/ folder served.
