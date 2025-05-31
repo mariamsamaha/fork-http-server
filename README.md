@@ -22,10 +22,9 @@ It demonstrates:
 
 ---
 
-🗂️ Project Structure
-text
-Copy
-Edit
+## 🗂️ Project Structure
+
+```text
 Bonus/
 ├── main.c          # Entry point: sets up the server and accepts connections
 ├── server.c        # Handles client requests and responses
@@ -33,12 +32,11 @@ Bonus/
 ├── www/            # Static files served by the server
 ├── server          # Compiled binary
 └── README.md       # This documentation
-⚙️ How to Build
-Make sure you have GCC installed. Then run:
 
 bash
 Copy
-Edit
+⚙️ How to Build
+Make sure you have GCC installed. Then run:
 gcc -o server server.c main.c
 🚀 How to Run
 Run the server with a specific port:
