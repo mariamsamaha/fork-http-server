@@ -33,22 +33,16 @@ Bonus/
 ├── server          # Compiled binary
 └── README.md       # This documentation
 
-bash
-Copy
+
 ⚙️ How to Build
 Make sure you have GCC installed. Then run:
 gcc -o server server.c main.c
+
 🚀 How to Run
 Run the server with a specific port:
-
-bash
-Copy
-Edit
 ./server <port>
-Now open your browser and go to:
 
-arduino
-Copy
-Edit
+Now open your browser and go to:
 http://localhost:<port>
+
 You should see the content of the www/ folder served.
